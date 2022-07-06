@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    background-color: rgb(235 82 82);
+    color: white;
+    padding: 14px 22px;
+    text-decoration: none;
+    border-radius: 12px;
+  
+}
+.sec-1{
+    background-image: url(images/hero.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 590px;
+   width: 98.6vw;
+   box-shadow:100px 100px 300px black inset ;
+}
+.first{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    color: white;
+   padding: 150px 150px;
+   text-shadow: 10px 10px 200px black;
+}
+.first h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.first p{
+    width: 591px;
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom:28px;
+}
+.sec-2{
+    margin: 130px 330px;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.text h1{
+    font-size: 44px;
+    font-weight: 900;
+}
+.text p{
+    width: 591px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(112 112 112);
+}
+.amount{
+    display: flex;
+    margin: auto;
+    width: 740px;
+    height: 110px;
+}
+.amount .money{
+    height: 100%;
+    background-color: rgb(223, 220, 220);
+    width: 16%;
+    font-size: 30px;
+    color: rgb(136, 133, 133);
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 10px 10px 40px rgb(250 250 250);
+}
+.money:hover{
+    border:2px solid rgb(235 82 82) ;
+    background-color: rgb(232, 214, 214);
+    color: rgb(235 82 82);
+}
+h4{
+    margin-top: 62px;
+}
+hr{
+    margin-bottom: 40px;
+}
+.plan{
+    display: flex;
+    margin: auto;
+    height: 325px;
+    width: 1080px;
+    margin-bottom: 100px;
+}
+.plan-item{
+    width:30%;
+    height: 100%;
+    margin-left: 3%;
+    padding: 45px 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: justify;
+}
+h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sec-4-5{
+   
+    width: 78%;
+    display: flex;
+    margin: auto;
+    height: 440px;
+    margin-bottom: 90px;
+}
+.left{
+    width: 50%;
+    padding-right: 94px;
+    box-sizing: border-box;
+    color: rgb(112 112 112);
+}
+.left h1{
+    font-size: 42px;
+    font-weight: 900;
+    color: black;
+}
+.left .p{
+margin-top: 28px;
+margin-bottom: 28px;
+}
+.right{
+    width:50%;
+}
+.right img{
+    width: 425px;
+    height: 440px;
+    border-radius: 8px;
+}
+.sec-6{
+    text-align: center;
+    
+}
+.sec-6 h1{
+    font-size: 42px;
+    font-weight: 900;
+    color: black;
+}
+.sec-6 p{
+    margin-bottom:50px ;
+}
+.sec-6 .email{
+    height: 185px;
+    width: 755px;
+    background-color:rgb(229 218 189);
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    padding: 65px 170px;
+    box-sizing: border-box;
+
+}
+.email input{
+    background-color: rgb(213 204 204);
+    height: 50px;
+    width: 255px;
+    border: none;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    border-radius: 10px 0 0 10px;
+}
+.email a{
+    border-radius:0 10px 10px 0px ;
+    height: 22px;
+    width: 145px;
+}
+footer{
+text-align: center;
+height: 160px;
+background-color: black;
+
+} 
+footer h1{
+    color:rgb(255 89 89);
+    font-family: 'Satisfy', cursive;
+    padding:30px 30px;
+    
+}
+footer h5{
+    color: white;
+    
+}
