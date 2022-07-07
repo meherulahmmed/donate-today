@@ -113,7 +113,7 @@ h2{
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.sec-4-5{
+.sec-4{
    
     width: 78%;
     display: flex;
@@ -144,6 +144,44 @@ margin-bottom: 28px;
     height: 440px;
     border-radius: 8px;
 }
+
+.sec-5{
+    
+    text-align: center;
+    margin-bottom: 100px;
+   
+}
+.sec-5 .team{
+
+    height: 250px;
+    width: 1000px;
+    margin-bottom: 100px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+
+}
+.sec-5 h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+.sec-5 .team .member{
+    margin-left: 3%;
+    width: 30%;
+    line-height: 10px;
+}
+.member img{
+    width: 90%;
+}
+
+
+
+
+
+
+
 .sec-6{
     text-align: center;
     
