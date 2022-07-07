@@ -20,7 +20,7 @@ a{
     background-repeat: no-repeat;
    background-size: cover;
    height: 590px;
-   width: 98.6vw;
+   width: 100%;   /*98.7.5vw*/
    box-shadow:100px 100px 300px black inset ;
 }
 .first{
@@ -31,7 +31,7 @@ a{
     color: white;
    padding: 150px 150px;
    text-shadow: 10px 10px 200px black;
-}
+} 
 .first h1{
     font-size: 60px;
     font-weight: 700;
@@ -82,7 +82,7 @@ a{
     text-align: center;
     box-shadow: 10px 10px 40px rgb(250 250 250);
 }
-.money:hover{
+#tk200{
     border:2px solid rgb(235 82 82) ;
     background-color: rgb(232, 214, 214);
     color: rgb(235 82 82);
